@@ -1,0 +1,23 @@
+{
+    "name": "desktop/cep_project",
+    "description": "Busca de CEP online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GabrielR4SH",
+            "email": "bieelsantana23@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        }, 
+        "psr-4": {
+            "Dio\\DigitalCep\\": "src/"
+        }
+    }
+}
