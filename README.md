@@ -32,3 +32,22 @@ Execute o comando abaixo para instalar o PHPUnit:
 Se você deseja gerar um relatório com os resultados dos testes em um arquivo de texto, execute o comando:
 
 ``` php vendor/bin/phpunit tests/ --colors=always > report.txt ``` 
+
+<hr>
+
+## Passo 4: Gerar um Relatório em XML ou JSON (Opcional)
+
+Se preferir, você pode gerar relatórios em outros formatos, como XML ou JSON:
+
+- **Relatório em XML**: 
+  ```bash
+  php vendor/bin/phpunit tests/ --log-junit report.xml
+  ```
+
+  - **Relatório em JSON**:
+    
+  ```bash
+  php vendor/bin/phpunit tests/ --log-json report.json
+
+  ```
+
