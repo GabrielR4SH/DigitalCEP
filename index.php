@@ -6,6 +6,6 @@ use Dio\DigitalCep\Search;
 
 $search = new Search();
 
-$res_json = $a->getAddresFromZipCode('05822010');
+$res_json = $search->getAddresFromZipCode('05822010');
 
 print_r($res_json);
