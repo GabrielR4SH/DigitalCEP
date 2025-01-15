@@ -19,7 +19,7 @@ Para rodar os testes da biblioteca, siga os passos abaixo:
 
 Execute o comando abaixo para instalar o PHPUnit:
 
-``` bash composer require --dev phpunit/phpunit ``` 
+``` composer require --dev phpunit/phpunit ``` 
 
 <hr>
 
